@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", "Segoe UI", sans-serif;
+  --color-paper: #f6f5ef;
+  --color-ink: #1c3028;
+  --color-muted: #50655a;
+  --color-line: #d9dfd5;
+  --color-pine: #1b4937;
+  --color-mint: #e2efdf;
+}
+
+body { @apply bg-paper font-sans text-ink antialiased; }
+a:focus-visible, button:focus-visible { @apply outline-2 outline-offset-4 outline-pine; }

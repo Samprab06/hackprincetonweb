@@ -1,0 +1,26 @@
+{
+  "catchmentId": "c1",
+  "site": { "id": "site_a", "lat": 29.7425, "lng": -95.3905, "frontage": "corner", "opensMin": 360, "hasParking": true },
+  "blockGroups": [
+    { "geoid": "482014101001", "lat": 29.7441, "lng": -95.3931, "population": 1420, "households": 820, "medianHouseholdIncomeUsd": 72000, "medianAge": 33, "shareHouseholdsWithKids": 0.18, "commuteShares": { "walk": 0.06, "drive": 0.82, "transit": 0.07, "bike": 0.05 } },
+    { "geoid": "482014101002", "lat": 29.7398, "lng": -95.3889, "population": 1185, "households": 640, "medianHouseholdIncomeUsd": 58000, "medianAge": 36, "shareHouseholdsWithKids": 0.24, "commuteShares": { "walk": 0.04, "drive": 0.86, "transit": 0.08, "bike": 0.02 } },
+    { "geoid": "482014102001", "lat": 29.7462, "lng": -95.3858, "population": 1760, "households": 1010, "medianHouseholdIncomeUsd": 96000, "medianAge": 31, "shareHouseholdsWithKids": 0.12, "commuteShares": { "walk": 0.09, "drive": 0.78, "transit": 0.05, "bike": 0.08 } },
+    { "geoid": "482014102002", "lat": 29.7376, "lng": -95.3962, "population": 980, "households": 470, "medianHouseholdIncomeUsd": 41000, "medianAge": 39, "shareHouseholdsWithKids": 0.31, "commuteShares": { "walk": 0.03, "drive": 0.8, "transit": 0.15, "bike": 0.02 } },
+    { "geoid": "482014103001", "lat": 29.7489, "lng": -95.3941, "population": 1315, "households": 690, "medianHouseholdIncomeUsd": 128000, "medianAge": 42, "shareHouseholdsWithKids": 0.27, "commuteShares": { "walk": 0.02, "drive": 0.9, "transit": 0.04, "bike": 0.04 } },
+    { "geoid": "482014103002", "lat": 29.7352, "lng": -95.3851, "population": 640, "households": 360, "medianHouseholdIncomeUsd": 64000, "medianAge": 35, "shareHouseholdsWithKids": 0.2, "commuteShares": { "walk": 0.05, "drive": 0.84, "transit": 0.09, "bike": 0.02 } }
+  ],
+  "workplaces": [
+    { "geoid": "482014101001012", "lat": 29.7431, "lng": -95.3912, "jobs": 1240, "earnings": { "low": 0.22, "mid": 0.36, "high": 0.42 }, "ages": { "under30": 0.27, "age30to54": 0.55, "over55": 0.18 } },
+    { "geoid": "482014101002007", "lat": 29.7411, "lng": -95.3878, "jobs": 610, "earnings": { "low": 0.38, "mid": 0.4, "high": 0.22 }, "ages": { "under30": 0.36, "age30to54": 0.48, "over55": 0.16 } },
+    { "geoid": "482014102001003", "lat": 29.7455, "lng": -95.3873, "jobs": 925, "earnings": { "low": 0.15, "mid": 0.3, "high": 0.55 }, "ages": { "under30": 0.21, "age30to54": 0.6, "over55": 0.19 } },
+    { "geoid": "482014103001021", "lat": 29.7478, "lng": -95.3925, "jobs": 330, "earnings": { "low": 0.45, "mid": 0.38, "high": 0.17 }, "ages": { "under30": 0.41, "age30to54": 0.44, "over55": 0.15 } }
+  ],
+  "passBy": [
+    { "id": "westheimer", "lat": 29.7427, "lng": -95.3899, "dailyCount": 4100, "walkShare": 0.08 },
+    { "id": "montrose_blvd", "lat": 29.7419, "lng": -95.3911, "dailyCount": 1650, "walkShare": 0.15 }
+  ],
+  "competitors": [
+    { "id": "comp_1", "lat": 29.7432, "lng": -95.3897, "brandClass": "chain", "businessType": "coffee", "priceUsd": 4 },
+    { "id": "comp_2", "lat": 29.7512, "lng": -95.3812, "brandClass": "independent", "businessType": "coffee", "priceUsd": 6 }
+  ]
+}

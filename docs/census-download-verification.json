@@ -1,0 +1,194 @@
+{
+  "mode": "census-download-only",
+  "acsSource": "summary",
+  "vintage": "2024",
+  "blockGroups": 12816,
+  "counties": {
+    "48015": {
+      "blockGroups": 21,
+      "geometryBlockGroups": 21
+    },
+    "48039": {
+      "blockGroups": 231,
+      "geometryBlockGroups": 231
+    },
+    "48071": {
+      "blockGroups": 22,
+      "geometryBlockGroups": 22
+    },
+    "48157": {
+      "blockGroups": 366,
+      "geometryBlockGroups": 366
+    },
+    "48167": {
+      "blockGroups": 276,
+      "geometryBlockGroups": 276
+    },
+    "48201": {
+      "blockGroups": 2830,
+      "geometryBlockGroups": 2830
+    },
+    "48291": {
+      "blockGroups": 53,
+      "geometryBlockGroups": 53
+    },
+    "48339": {
+      "blockGroups": 328,
+      "geometryBlockGroups": 328
+    },
+    "48407": {
+      "blockGroups": 22,
+      "geometryBlockGroups": 22
+    },
+    "48473": {
+      "blockGroups": 27,
+      "geometryBlockGroups": 27
+    },
+    "06037": {
+      "blockGroups": 6591,
+      "geometryBlockGroups": 6591
+    },
+    "06059": {
+      "blockGroups": 2049,
+      "geometryBlockGroups": 2049
+    }
+  },
+  "geometryMatched": 12816,
+  "databaseVerified": false,
+  "sources": [
+    {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01001.dat",
+      "retrievedAt": "2026-11-14T05:36:39.910Z",
+      "sha256": "1637b18a96881b81e050df1cd3d5ac38a33208b9b69b40e1dbeb3c4e13718f0e"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b01003.dat",
+      "retrievedAt": "2026-11-14T05:36:23.150Z",
+      "sha256": "38d1a992bb058d184009b10b9b34987279aee575e4323165cfb5706c69b6ca90"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b11001.dat",
+      "retrievedAt": "2026-11-14T05:36:26.579Z",
+      "sha256": "77200c3d9c0d99773bc7f78208bc96f25170e5d4d175a5de320620b478ceaff5"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/acs/summary_file/2024/table-based-SF/data/5YRData/acsdt5y2024-b19013.dat",
+      "retrievedAt": "2026-11-14T05:36:32.418Z",
+      "sha256": "b25a176b0e6c339b6f3a2a0d3d8446bf06f5f080b4395993ec9a8313efb1c229"
+    }
+  ],
+  "geometrySources": [
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2706%27+AND+COUNTY%3D%27037%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:30.725Z",
+      "sha256": "e4f224a1ca810ed669a6c13851b95cdb9f39414981d4956db8882e2c30a3a710"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2706%27+AND+COUNTY%3D%27037%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=1000&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T06:01:49.010Z",
+      "sha256": "2fcf98472c43a54ee0a3538d6bae0a53c11ada57b33b6f894dd5ee18a79fd50a"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2706%27+AND+COUNTY%3D%27037%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=2000&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T06:01:51.253Z",
+      "sha256": "a18e5a30d1da59481cfbfbf5c4f166f31652eba97c6531981e4414dba3e9a345"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2706%27+AND+COUNTY%3D%27037%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=3000&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T06:01:53.664Z",
+      "sha256": "563a63fcc429c7a0e7f6eba715c4783bb6e2cd7dabb8402dd09a5b0cee3a8974"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2706%27+AND+COUNTY%3D%27037%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=4000&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T06:01:56.124Z",
+      "sha256": "b5107f87643631b14b99167ef16c10c928f2be812a05371a5191674a4936a8eb"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2706%27+AND+COUNTY%3D%27037%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=5000&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T06:01:58.424Z",
+      "sha256": "a594623bbbc1a7fb803aa0d6ed668a93df0c22c8c787f4f3868ff20f8a0cc7b0"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2706%27+AND+COUNTY%3D%27037%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=6000&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T06:02:01.966Z",
+      "sha256": "31bb4e1f50268c8e28a0dde522e8d4688f8fe6ebddb8270498283961d6c0ba94"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2706%27+AND+COUNTY%3D%27059%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T06:02:04.901Z",
+      "sha256": "3f690da219e4606d2462b9d4a018c8f7f61cebc01e9d96234dd8d2b45f6062ee"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2706%27+AND+COUNTY%3D%27059%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=1000&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T06:02:07.658Z",
+      "sha256": "7278aa1768ead79dce683b07c024e4d9d4712e9e49f609d63d73162fa8234334"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2706%27+AND+COUNTY%3D%27059%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=2000&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T06:02:08.690Z",
+      "sha256": "cf62c66b945defab605626e3d9aecbc4aafed51304e36db79db9913fc098f622"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27015%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:14.135Z",
+      "sha256": "fd9d71b6d8deb903a694f1201ecb7a5de984c52b782addfb503c92b08712406c"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27039%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:15.381Z",
+      "sha256": "d7122ff6ce0e782797558d2dac64c20c325d04533e8ba86b8d1b86681bd0385b"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27071%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:16.284Z",
+      "sha256": "41cf0a0eb00a993e9217443702f2178676a2a5a15ac965e5ecc21e6b50cefe9f"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27157%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:17.919Z",
+      "sha256": "8b7aaf3b01eba1558a55ee264a92909ada4e5531b3b64fba1f5c46baf9fefbbd"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27167%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:19.236Z",
+      "sha256": "e0f588b5f285771543d02886d2f505699ced5dcc88985a4eae153f0a4306a007"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27201%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:21.185Z",
+      "sha256": "c6f42de121d0c63333c3e5b8db201f0d03de2b19c335b4b2c50012696d30a2ef"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27201%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=1000&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:23.214Z",
+      "sha256": "206fe937a1a94174f4b8742de11c0b7c2c8639f28e7b2f8c649f410ebf607082"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27201%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=2000&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:25.271Z",
+      "sha256": "951dc6f722fbfcddf0f05a023a9581b66266ffb764e8598786b48761a5abbc91"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27291%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:26.262Z",
+      "sha256": "cb78971e63b2706b144dc15809d512e5fddeb01fb150da226a1aa034118d4134"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27339%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:27.595Z",
+      "sha256": "5dd2cdaa2be13890d0cc8d95f636ac4aeb1aee3ce1abd6a35b521a2bf4f9db9a"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27407%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:28.458Z",
+      "sha256": "df43cc0189e3d67d89cab28e13811ba5c083b9d4ab928c1d131b17cfe6c95f64"
+    },
+    {
+      "url": "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/tigerWMS_ACS2024/MapServer/10/query?where=STATE%3D%2748%27+AND+COUNTY%3D%27473%27&outFields=GEOID%2CSTATE%2CCOUNTY%2CTRACT%2CBLKGRP&returnGeometry=true&outSR=4326&f=geojson&orderByFields=GEOID&resultOffset=0&resultRecordCount=1000",
+      "retrievedAt": "2026-11-14T05:37:29.254Z",
+      "sha256": "8233016f19f5ad8ac92e85abeee5ce94cb642768ebd3693828c3a507a4ca5add"
+    }
+  ],
+  "scope": "Actual ACS/TIGER downloads only; no PostGIS import, LODES, Overture or hosted preview verification.",
+  "offlineCacheReuseVerified": true
+}

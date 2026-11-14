@@ -1,0 +1,108 @@
+{
+  "category": "fitness",
+  "label": "Fitness studio",
+  "sources": [
+    {
+      "id": "hac19-fitness-scenario-v1",
+      "title": "HAC-19 authored illustrative fitness studio scenario (not measured market data)",
+      "url": "https://github.com/Samprab06/HackPrinceton/blob/hac-19-intake-fde-agent-and-category-defaults/fixtures/categories/README.md",
+      "limitations": [
+        "Uncalibrated product scenario, not an external benchmark or forecast.",
+        "Travel and visits use one provisional segment; peak shares use one day profile.",
+        "Founder must review and may override every assumption."
+      ]
+    },
+    {
+      "id": "bls-fitness-may2025",
+      "title": "BLS Occupational Outlook Handbook: fitness trainers, May 2025 national annual median $47,160; divided by 2,080 hours and rounded to cents",
+      "url": "https://www.bls.gov/ooh/personal-care-and-service/fitness-trainers-and-instructors.htm",
+      "limitations": [
+        "National occupational proxy, not a Houston or Los Angeles wage quote.",
+        "Not total employer cost; taxes, benefits, local wage rules and occupation mix are not modeled.",
+        "Applied as a default, not as a founder-provided or location-verified value."
+      ]
+    }
+  ],
+  "values": {
+    "serviceMinutes": {
+      "value": 60,
+      "unit": "minutes/customer",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    },
+    "travelMinutes": {
+      "value": 15,
+      "unit": "minutes",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    },
+    "visitsPerMonth": {
+      "value": 8,
+      "unit": "visits/person/month",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    },
+    "wageRateCentsPerHour": {
+      "value": 2267,
+      "unit": "USD cents/hour",
+      "origin": "default",
+      "evidenceIds": ["bls-fitness-may2025"]
+    },
+    "cogsFraction": {
+      "value": 0.05,
+      "unit": "fraction",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    },
+    "squareFeetPerStation": {
+      "value": 50,
+      "unit": "sq ft/station",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    },
+    "minimumFrontOfHouseSqFt": {
+      "value": 600,
+      "unit": "sq ft",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    },
+    "patienceMinutes": {
+      "value": 10,
+      "unit": "minutes",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    }
+  },
+  "peakHourProfile": {
+    "earlyMorning": {
+      "value": 0.2,
+      "unit": "probability",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    },
+    "morning": {
+      "value": 0.1,
+      "unit": "probability",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    },
+    "midday": {
+      "value": 0.15,
+      "unit": "probability",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    },
+    "afternoon": {
+      "value": 0.15,
+      "unit": "probability",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    },
+    "evening": {
+      "value": 0.4,
+      "unit": "probability",
+      "origin": "default",
+      "evidenceIds": ["hac19-fitness-scenario-v1"]
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "_note": "Recorded Jev responses in the assumed wire format (see lib/panel/jev-client.ts). Four variants stand for answers to four shuffled option orders of the same persona x site. Re-record once HAC-14 confirms the real endpoint.",
+  "request": { "model": "jev-1.14.0", "path": "/v1/decide" },
+  "variants": [
+    {
+      "model": "jev-1.14.0",
+      "answers": [
+        { "name": "where", "type": "Choice", "choice": "site_a", "probabilities": { "site_a": 0.46, "comp_1": 0.31, "comp_2": 0.09, "none": 0.14 }, "confidence": 0.71 },
+        { "name": "how_often", "type": "Score", "level": "weekly", "probabilities": { "never": 0.06, "monthly": 0.18, "weekly": 0.41, "several_a_week": 0.27, "daily": 0.08 }, "confidence": 0.64 },
+        { "name": "when", "type": "Choice", "choice": "morning", "probabilities": { "early_morning": 0.22, "morning": 0.48, "midday": 0.14, "afternoon": 0.11, "evening": 0.05 }, "confidence": 0.69 },
+        { "name": "stay_at_queue_0", "type": "Noul", "p_yes": 0.97, "confidence": 0.9 },
+        { "name": "stay_at_queue_2", "type": "Noul", "p_yes": 0.9, "confidence": 0.84 },
+        { "name": "stay_at_queue_4", "type": "Noul", "p_yes": 0.71, "confidence": 0.7 },
+        { "name": "stay_at_queue_6", "type": "Noul", "p_yes": 0.47, "confidence": 0.63 },
+        { "name": "stay_at_queue_10", "type": "Noul", "p_yes": 0.19, "confidence": 0.66 },
+        { "name": "price_ok", "type": "Noul", "p_yes": 0.74, "confidence": 0.72 }
+      ]
+    },
+    {
+      "model": "jev-1.14.0",
+      "answers": [
+        { "name": "where", "type": "Choice", "choice": "site_a", "probabilities": { "site_a": 0.4, "comp_1": 0.36, "comp_2": 0.1, "none": 0.14 }, "confidence": 0.66 },
+        { "name": "how_often", "type": "Score", "level": "weekly", "probabilities": { "never": 0.05, "monthly": 0.2, "weekly": 0.43, "several_a_week": 0.25, "daily": 0.07 }, "confidence": 0.62 },
+        { "name": "when", "type": "Choice", "choice": "morning", "probabilities": { "early_morning": 0.25, "morning": 0.44, "midday": 0.15, "afternoon": 0.1, "evening": 0.06 }, "confidence": 0.67 },
+        { "name": "stay_at_queue_0", "type": "Noul", "p_yes": 0.96, "confidence": 0.91 },
+        { "name": "stay_at_queue_2", "type": "Noul", "p_yes": 0.88, "confidence": 0.82 },
+        { "name": "stay_at_queue_4", "type": "Noul", "p_yes": 0.69, "confidence": 0.71 },
+        { "name": "stay_at_queue_6", "type": "Noul", "p_yes": 0.5, "confidence": 0.6 },
+        { "name": "stay_at_queue_10", "type": "Noul", "p_yes": 0.21, "confidence": 0.64 },
+        { "name": "price_ok", "type": "Noul", "p_yes": 0.71, "confidence": 0.7 }
+      ]
+    },
+    {
+      "model": "jev-1.14.0",
+      "answers": [
+        { "name": "where", "type": "Choice", "choice": "site_a", "probabilities": { "site_a": 0.51, "comp_1": 0.27, "comp_2": 0.08, "none": 0.14 }, "confidence": 0.74 },
+        { "name": "how_often", "type": "Score", "level": "weekly", "probabilities": { "never": 0.07, "monthly": 0.17, "weekly": 0.4, "several_a_week": 0.28, "daily": 0.08 }, "confidence": 0.65 },
+        { "name": "when", "type": "Choice", "choice": "morning", "probabilities": { "early_morning": 0.2, "morning": 0.5, "midday": 0.13, "afternoon": 0.12, "evening": 0.05 }, "confidence": 0.7 },
+        { "name": "stay_at_queue_0", "type": "Noul", "p_yes": 0.97, "confidence": 0.9 },
+        { "name": "stay_at_queue_2", "type": "Noul", "p_yes": 0.91, "confidence": 0.85 },
+        { "name": "stay_at_queue_4", "type": "Noul", "p_yes": 0.73, "confidence": 0.69 },
+        { "name": "stay_at_queue_6", "type": "Noul", "p_yes": 0.45, "confidence": 0.62 },
+        { "name": "stay_at_queue_10", "type": "Noul", "p_yes": 0.18, "confidence": 0.67 },
+        { "name": "price_ok", "type": "Noul", "p_yes": 0.76, "confidence": 0.73 }
+      ]
+    },
+    {
+      "model": "jev-1.14.0",
+      "answers": [
+        { "name": "where", "type": "Choice", "choice": "comp_1", "probabilities": { "site_a": 0.35, "comp_1": 0.39, "comp_2": 0.11, "none": 0.15 }, "confidence": 0.58 },
+        { "name": "how_often", "type": "Score", "level": "weekly", "probabilities": { "never": 0.06, "monthly": 0.19, "weekly": 0.42, "several_a_week": 0.26, "daily": 0.07 }, "confidence": 0.63 },
+        { "name": "when", "type": "Choice", "choice": "morning", "probabilities": { "early_morning": 0.23, "morning": 0.46, "midday": 0.15, "afternoon": 0.11, "evening": 0.05 }, "confidence": 0.68 },
+        { "name": "stay_at_queue_0", "type": "Noul", "p_yes": 0.98, "confidence": 0.92 },
+        { "name": "stay_at_queue_2", "type": "Noul", "p_yes": 0.89, "confidence": 0.83 },
+        { "name": "stay_at_queue_4", "type": "Noul", "p_yes": 0.7, "confidence": 0.7 },
+        { "name": "stay_at_queue_6", "type": "Noul", "p_yes": 0.48, "confidence": 0.61 },
+        { "name": "stay_at_queue_10", "type": "Noul", "p_yes": 0.2, "confidence": 0.65 },
+        { "name": "price_ok", "type": "Noul", "p_yes": 0.73, "confidence": 0.71 }
+      ]
+    }
+  ],
+  "malformed": { "model": "jev-1.14.0", "answers": [{ "name": "where", "type": "Choice", "choice": "site_a", "probabilities": { "site_a": 1.7 }, "confidence": 0.5 }] }
+}
